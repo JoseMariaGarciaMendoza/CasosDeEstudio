@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuesta de Satisfaccion de los asistentes a un evento</title>
+    <link rel="stylesheet" href="indexCaso2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sala de Eventos</h1>
+      <h2>Evaluacion de satisfaccion de los assistentes a un evento</h2>
+    </header>
+    <form action="#" method="get" autocomplete="off">
+      <fieldset>
+        <legend>Evaluacion de satisfaccion</legend>
+        <label for="name">Nombre Completo</label>
+        <input type="text" name="name" placeholder="Nombre Completo" />
+        <label for="email">Correo Electronico</label>
+        <input type="text" name="email" placeholder="Correo Electronico" />
+        <div class="box-1">
+          <label for="tel">Telefono</label>
+          <input type="text" name="tel" placeholder="Telefono" />
+          <label for="year">Edad:</label>
+          <input type="number" name="year" placeholder="Edad" />
+        </div>
+        <label for="sex">Sexo</label>
+        <select name="ocupation">
+          <option value="1">Hombre</option>
+          <option value="2">Mujer</option>
+        </select>
+        <label for="evaluation">Evualuacion del evento</label>
+        <select name="evaluation">
+          <option value="1">Excelente</option>
+          <option value="2">Bueno</option>
+          <option value="3">Regular</option>
+          <option value="4">Malo</option>
+        </select>
+        <label>¿Volveria a rentar nuestra sala de eventos?</label>
+        <select name="rent">
+            <option value="1">Si</option>
+          <option value="2">No</option>
+        </select>
+        <label>¿Que sala mejoraria de nuestra sala de evento?</label>
+        <input type="text" placeholder="Sonido, Cocina, Recepcion, Parquiadero, Mobiliaria etc..." name="sala">
+        <label for="comment">Comentarios</label>
+        <input
+          type="text"
+          name="comment"
+          id="comment-input"
+          placeholder="Comentarios..."
+        />
+        <input type="submit" value="Enviar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario para una conferencia</title>
+    <link rel="stylesheet" href="indexCaso1.css">
+</head>
+<body>
+    <header>
+        <h1>Conferencias.com</h1>
+        <h2>Registro para poder asistir a una conferencia</h2>
+    </header>
+    <form action="#" method="get" autocomplete="off">
+        <fieldset>
+        <legend>Registro de usuario para una conferencia</legend>
+        <label for="name">Nombre Completo</label>
+        <input type="text" name="name" placeholder="Nombre Completo">
+        <label for="email">Correo Electronico</label>
+        <input type="text" name="email" placeholder="Correo Electronico">
+        <div class="box-1">
+        <label for="tel">Telefono</label>
+        <input type="text" name="tel" placeholder="Telefono">
+        <label for="year">Edad</label>
+        <input type="text" name="edad" placeholder="Edad">
+        </div>
+        <label for="sex">Sexo</label>
+        <select name="ocupation">
+            <option value="1">Hombre</option>
+            <option value="2">Mujer</option>
+        </select>
+        <label for="ocupation">Ocupacion</label>
+        <select name="ocupation">
+            <option value="1">Programador</option>
+            <option value="2">Maestro</option>
+            <option value="3">Doctor</option>
+            <option value="4">Arquitecto</option>
+            <option value="5">Veterinario</option>
+        </select>
+        <label for="talla">Talla</label>
+        <select name="talla">
+            <option value="1">S</option>
+            <option value="2">M</option>
+            <option value="3">L</option>
+            <option value="4">XL</option>
+        </select>
+        
+        <label>Preferencias dietéticas</label>
+        <section>
+        <input type="checkbox" name="ve">
+        <label for="ve">Vegetariano</label>
+        <input type="checkbox" name="veg">
+        <label for="veg">Vegano</label>
+        <input type="checkbox" name="sn">
+        <label for="sn">Sin gluten</label>
+        <input type="checkbox" name="sn">
+        <label for="sr">Sin restricciones</label>
+        </section>
+        <label for="time">Hora</label>
+        <input type="time" name="lugar">
+        <label for="lugar">Lugar del Evento</label>
+        <input type="text" name="lugar">
+        <input type="submit" value="Enviar" id="btn-enviar">
+        
+        </fieldset>
+    </form>
+</body>
+</html>

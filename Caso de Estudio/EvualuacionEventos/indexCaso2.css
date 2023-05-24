@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: darkslategrey;
+    color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+fieldset{
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 5px 5px 5px;
+
+}
+.box-1{
+    padding-top: 10px;
+}
+#comment-input{
+    height: 14vh;
+}
